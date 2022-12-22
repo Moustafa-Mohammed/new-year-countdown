@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New year Countdown</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./app.js" defer></script>
+    </head>
+
+    <body>
+        <div class="content-wrapper">
+            <div class="main-heading">
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <title>Let it snow</title>
+                    <path
+                        d="M12 7v10M17 12H7M16.25 16.25l-8.5-8.5M16.25 7.75l-8.5 8.5M9.75 4.75 12 7l2.25-2.25M19.25 9.75 17 12l2.25 2.25M9.75 19.25l2.25-2.5 2.25 2.5M4.75 9.75 7.25 12l-2.5 2.25"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <h1>Remaining</h1>
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <title>Let it snow</title>
+                    <path
+                        d="M12 7v10M17 12H7M16.25 16.25l-8.5-8.5M16.25 7.75l-8.5 8.5M9.75 4.75 12 7l2.25-2.25M19.25 9.75 17 12l2.25 2.25M9.75 19.25l2.25-2.5 2.25 2.5M4.75 9.75 7.25 12l-2.5 2.25"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </div>
+            <div class="bounced">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </div>
+            <table>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                    <th>Minutes</th>
+                    <th>Seconds</th>
+                </tr>
+                <tr>
+                    <td id="days"></td>
+                    <td id="hours"></td>
+                    <td id="mins"></td>
+                    <td id="seconds"></td>
+                </tr>
+            </table>
+            <div class="year-box">
+                <h2 class="current-year year">2022</h2>
+                <h2 class="new-year year">2023</h2>
+            </div>
+        </div>
+        <div class="panda-container"><img class="panda"
+                alt="Illustration of Kody the Koala standing on a snowboard surrounded by green leaves, a battery, two skies, a one-wheel, a solar panel, and a recycle logo."
+                src="https://res.cloudinary.com/kentcdodds-com/image/upload/w_918,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red"
+                srcset="https://res.cloudinary.com/kentcdodds-com/image/upload/w_256,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 256w, https://res.cloudinary.com/kentcdodds-com/image/upload/w_550,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 550w, https://res.cloudinary.com/kentcdodds-com/image/upload/w_700,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 700w, https://res.cloudinary.com/kentcdodds-com/image/upload/w_900,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 900w, https://res.cloudinary.com/kentcdodds-com/image/upload/w_1300,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 1300w, https://res.cloudinary.com/kentcdodds-com/image/upload/w_1800,q_auto,f_auto/kentcdodds.com/illustrations/kody-flying_red 1800w"
+                sizes="(max-width: 1023px) 80vw, (min-width: 1024px) and (max-width: 1279px) 50vw, (min-width: 1280px) 900px"
+                crossorigin="anonymous" style="opacity: 1; transform: none;"></div>
+    </body>
+
+</html>
